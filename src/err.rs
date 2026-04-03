@@ -4,7 +4,7 @@ use std::{
 };
 
 pub enum XRCError {
-    InvalidKeyLength
+    InvalidKeyLength,
     EmptyInput,
 }
 impl XRCError {
