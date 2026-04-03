@@ -23,7 +23,7 @@ impl Cipher {
     }
 
     fn init(key: Vec<u8>, seed: Option<u64>) -> XRCResult<Self> {
-        if key.len() < 6 {
+        if key.len() < 1 {
             return Err(XRCError::InvalidKeyLength);
         }
         let mut cipher = match seed {

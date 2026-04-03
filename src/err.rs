@@ -4,13 +4,12 @@ use std::{
 };
 
 pub enum XRCError {
-    InvalidKeyLength,
     EmptyInput,
 }
 impl XRCError {
     fn as_str(&self) -> &str {
         match self {
-            XRCError::InvalidKeyLength => "Key length must be at least 6",
+            XRCError::InvalidKeyLength => "Key length must be at least 1",
             XRCError::EmptyInput => "Given input vec is empty",
         }
     }
