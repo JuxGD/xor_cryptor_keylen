@@ -1,11 +1,11 @@
 [package]
-name = "xor_cryptor"
+name = "xor_cryptor_keylen"
 version = "2.0.4"
 edition = "2021"
-authors = ["Shashank Verma <shank03>"]
+authors = ["Shashank Verma <shank03>", "Jux <JuxGD>"]
 license = "MIT"
-description = "A encryption/decryption library using bitwise xor"
-repository = "https://github.com/shank03/XORCryptor-Rust"
+description = "xor_cryptor, but with a minimum key length of 1"
+repository = "https://github.com/JuxGD/xor_cryptor_keylen"
 readme = "README.md"
 keywords = ["xor", "cryptor", "encryption", "decryption", "cipher"]
 categories = ["cryptography"]
